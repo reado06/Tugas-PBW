@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pendaftaran Mahasiswa Baru</h1>
+
+      <form action="">
+        <div class="form-group">
+          <label for="NPM">NPM (Nomor Pokok Mahasiswa)</label>
+          <input type="number" name="npm" id="npm" />
+        </div>
+
+        <div class="form-group">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" name="nama" id="nama" />
+        </div>
+
+        <div class="form-group">
+          <label for="alamat">Alamat</label>
+          <textarea name="alamat" id="alamat"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="gender">Jenis Kelamin</label>
+          <input type="radio" name="gender" id="pria" />Laki-Laki
+          <br />
+          <input type="radio" name="gender" id="wanita" />Perempuan
+        </div>
+
+        <div class="form-group">
+          <label for="jurusan">Program Studi</label>
+          <select name="jurusan" id="jurusan">
+            <option value="" disabled selected class="placeholder">Pilih Jurusanmu...</option>
+            <option value="ti">Teknik Informatika</option>
+            <option value="si">Sistem Informasi</option>
+            <option value="te">Teknik Elektro</option>
+            <option value="tm">Rekayasa Perangkat Lunak</option>
+            <option value="fk">Kedokteran</option>
+            <option value="fm">Farmasi</option>
+          </select>
+        </div>
+      </form>
+
+      <br />
+      <button>Tambah</button>
+    </div>
+  </body>
+</html>

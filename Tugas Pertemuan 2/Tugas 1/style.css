@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap");
+
+* {
+  font-family: "Noto Sans Warang Citi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 92%;
+  margin: auto;
+  max-width: 500px;
+  padding: 12px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  color: #555;
+  background-color: #f9f9f9;
+  font-size: 14px;
+}
+
+#npm,
+#nama {
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+#alamat {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+button {
+  padding: 6px;
+  width: 16%;
+  background-color: rgb(19, 112, 194);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+button:hover {
+  background-color: rgb(79, 160, 210);
+}
