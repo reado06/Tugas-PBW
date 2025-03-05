@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap");
+
+* {
+  font-family: "Noto Sans Warang Citi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: bold;
+  padding: 10px 6px;
+}
+
+td {
+  padding: 10px 6px;
+}
+
+table,
+th,
+td {
+  border: 1.5px solid rgba(0, 0, 0, 0.3);
+}
